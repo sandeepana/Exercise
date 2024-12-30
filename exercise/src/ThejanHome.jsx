@@ -1,9 +1,11 @@
 import React from "react";
 import "./ThejanHome.css";
+import Navigationbar from "./Navigationbar";
 
 const ThejanHome = () => {
   return (
     <div className="home-container">
+        
       {/* Hero Section */}
       <section className="hero">
         <h1>Welcome to Trendy Threads</h1>
